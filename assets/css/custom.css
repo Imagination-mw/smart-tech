@@ -1,0 +1,33 @@
+body{
+    margin:2px;
+    background-color:#fafafa;
+}
+#head {
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner.jpg);
+    background-size: cover;
+    clip-path:polygon(100% 0, 100% 65%, 100% 100%, 86% 85%, 86% 100%, 26% 100%, 0 100%, 0 0);
+    width: 100%;
+    color:#fff;
+}
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+}
+
+
+
+.trending-list div{
+    margin-bottom:5px;
+}
+
+footer{
+    min-height: 60px;
+}
