@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Smart Tech | Home</title>
+    <title>Smart Tech | Products Rated</title>
     <link rel="stylesheet" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fontawesome-free-5.7.1-web/css/all.css">
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -54,7 +54,7 @@
         <div class="col-sm-6">
             <div class="card rounded-0">
                 <div class="card-header py-2">
-                    Discounts Received
+                    Products Rated
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item py-1">

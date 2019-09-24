@@ -165,10 +165,7 @@
 
                 </ul>
                 <div class="card-body py-2">
-                    <a href="#" class="card-link btn btn-sm btn-primary">
-                        <i class="fa fa-info-circle"></i>&nbsp;More Info
-                    </a>
-                    <a href="#" class="card-link btn btn-primary btn-sm">
+                    <a href="#" class="card-link btn btn-primary btn-sm rounded-0">
                         <i class="fa fa-cart-plus"></i>&nbsp;Purchase
                     </a>
 

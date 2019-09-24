@@ -2,17 +2,17 @@
 <html>
 
 <head>
-    <title>Smart Tech | Profile</title>
-    <link rel="stylesheet" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fontawesome-free-5.7.1-web/css/all.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/roboto300.css">
+    <title>Smart Tech | Distributor Information</title>
+    <link rel="stylesheet" href="../../assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/fontawesome-free-5.7.1-web/css/all.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <link rel="stylesheet" href="../../assets/css/roboto300.css">
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0">
     <div class="container">
-        <a class="navbar-brand" href="dashboard.php">
+        <a class="navbar-brand" href="../dashboard.php">
             <i class="fa fa-desktop"></i>&nbsp;Smart Tech
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -48,60 +48,76 @@
     </div>
 
 </nav> <!-- ./ nav-->
-<section class="container mb-4 mt-2">
+<section class="container mb-4">
+    <div class="mt-2">
+        <h5>Product information</h5>
+        <hr>
+    </div>
+
     <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <div class="card">
-                <img src="assets/images/woman.jpg" class="card-img" alt="">
+                <img src="../../assets/images/placeholder.jpg" class="w-100" alt="">
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">@stella
+                    <li class="list-group-item">SMAD
                         <span class="float-right">
-                            <i class="fa fa-user"></i>
+                            <i class="fa fa-hashtag"></i>
                         </span>
                     </li>
                     <li class="list-group-item">
-                        Stella Kaunda
+                        Smart Ads
                         <span class="float-right">
                             <i class="fa fa-tag"></i>
                         </span>
                     </li>
                     <li class="list-group-item">
-                        Female
+                        K 140,000
                         <span class="float-right">
-                            <i class="fa fa-female"></i>
+                            <i class="fa fa-money-bill-alt"></i>
                         </span>
                     </li>
                     <li class="list-group-item">
-                        12 Purchases
+                        Software
                         <span class="float-right">
-                              <i class="fa fa-cart-arrow-down"></i>
+                              <i class="fa fa-tags"></i>
                         </span>
                     </li>
                 </ul>
-                <div class="card-body">
-                    <form action="">
-                        <div class="form-group">
-                            <input type="text" placeholder="password" class="form-control form-control-sm rounded-0">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="confirm password"
-                                   class="form-control form-control-sm rounded-0">
-                        </div>
-                        <div class="form-group">
-                            <button class="btn btn-sm btn-danger rounded-0 btn-block">Update Password</button>
-                        </div>
-                    </form>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="card">
+                <div class="card-header">
+                    Analytics (14)
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item ">
+                        <i class="fa fa-circle-notch"></i>&nbsp;Stock
+                        <span class="float-right">
+                             <i>  <small> 300</small></i> &middot;
+                         </span>
+                    </li><!-- ./ stat -->
+                    <li class="list-group-item">
+                        <i class="fa fa-circle-notch"></i>&nbsp;Sales
+                        <span class="float-right">
+                             <i>  <small> 300</small></i> &middot;
+                         </span>
+                    </li><!-- ./ stat -->
+                    <li class="list-group-item ">
+                        <i class="fa fa-circle-notch"></i>&nbsp;Sales Total
+                        <span class="float-right">
+                             <i>  <small> 3,040,000</small></i> &middot;
+                         </span>
+                    </li><!-- ./ stat -->
+
+                </ul>
+                <div class="card-footer">
+
                 </div>
             </div>
-
-
         </div>
-        <div class="col-sm-4"></div>
     </div>
-
 </section>
-
 
 <script src="assets/jquery-2.1.3.min.js"></script>
 <script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>

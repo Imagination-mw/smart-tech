@@ -2,17 +2,17 @@
 <html>
 
 <head>
-    <title>Smart Tech | Dashboard</title>
-    <link rel="stylesheet" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fontawesome-free-5.7.1-web/css/all.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/roboto300.css">
+    <title>Smart Tech | Clients Profile</title>
+    <link rel="stylesheet" href="../../assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/fontawesome-free-5.7.1-web/css/all.css">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <link rel="stylesheet" href="../../assets/css/roboto300.css">
 </head>
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-0">
     <div class="container">
-        <a class="navbar-brand" href="dashboard.php">
+        <a class="navbar-brand" href="../dashboard.php">
             <i class="fa fa-desktop"></i>&nbsp;Smart Tech
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -49,42 +49,49 @@
 
 </nav> <!-- ./ nav-->
 <section class="container mb-4">
-    <h5>Dashboard</h5>
-    <hr>
+    <div class="mt-2">
+        <h5>Client information</h5>
+        <hr>
+    </div>
+    
     <div class="row">
         <div class="col-sm-3">
-            <div class="card rounded-0">
-                <div class="card-header py-2">
-                    <i class="fa fa-list-alt"></i>&nbsp;Menu
-                </div>
-                <div class="card-body px-1">
-                    <a href="profile.php" class="btn btn-primary btn-block btn-sm">Profile</a>
-                    <a href="pending.php" class="btn btn-primary btn-block btn-sm">Pending</a>
-                    <a href="discounts.php" class="btn btn-primary btn-block btn-sm">Discounts</a>
-                    <a href="rating.php" class="btn btn-primary btn-block btn-sm">Rating</a>
-                </div>
+            <div class="card">
+                <img src="../../assets/images/woman.jpg" class="w-100" alt="">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">@stella
+                        <span class="float-right">
+                            <i class="fa fa-user"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        Stella Kaunda
+                        <span class="float-right">
+                            <i class="fa fa-tag"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        Female
+                        <span class="float-right">
+                            <i class="fa fa-female"></i>
+                        </span>
+                    </li>
+                    <li class="list-group-item">
+                        12 Purchases
+                        <span class="float-right">
+                              <i class="fa fa-cart-arrow-down"></i>
+                        </span>
+                    </li>
+                </ul>
             </div>
-
-        </div> <!-- ./ nav sidebar -->
-
+        </div>
         <div class="col-sm-9">
-            <div class="card rounded-0">
-                <div class="card-header py-2">
-                    Recent Purchases
+            <div class="card">
+                <div class="card-header">
+                    Purchases (14)
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item py-1">
-                        <i class="fa fa-boxes"></i>&nbsp;Lorem ipsum dolor sit.
-                        <span class="float-right">
-                             <i>  <small> 3 Days ago</small></i> &middot; K 18,000
-                         </span>
-                    </li><!-- ./ purchase -->
-                    <li class="list-group-item py-1">
-                        <i class="fa fa-boxes"></i>&nbsp;Lorem ipsum dolor sit.
-                        <span class="float-right">
-                             <i>  <small> 3 Days ago</small></i> &middot; K 18,000
-                         </span>
-                    </li><!-- ./ purchase -->
+
                     <li class="list-group-item py-1">
                         <i class="fa fa-boxes"></i>&nbsp;Lorem ipsum dolor sit.
                         <span class="float-right">
@@ -169,10 +176,9 @@
                     <button class="btn btn-outline-primary btn-sm rounded-0">Next</button>
                 </div>
             </div>
-        </div><!-- ./ purchases -->
+        </div>
     </div>
 </section>
-
 
 <script src="assets/jquery-2.1.3.min.js"></script>
 <script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
